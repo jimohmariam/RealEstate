@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "A house in ikeja now",
+      "body": "i am here Artificial intelligence is rapidly changing the world as we know it. From self-driving cars to personalized medicine, AI is poised to revolutionize every industry. In this post, we'll explore the latest advancements in AI and discuss the potential implications for society. We'll also delve into the ethical considerations surrounding AI and how we can ensure that it's used for the good of humanity.",
+      "imageUrl": "https://images.unsplash.com/photo-1620712943543-285f7266c8da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "author": "Jane Doe",
+      "date": "2025-08-28",
+      "id": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password123"
+    }
+  ]
+}
+
+// localhost:5000/users  - get all
+// localhost:5000/users - post
+// localhost:5000/users/1 - get one
+// localhost:5000/users/1 - put
+// localhost:5000/users/1 - delete
