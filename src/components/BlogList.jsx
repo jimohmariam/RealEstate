@@ -2,10 +2,10 @@
 import React from 'react';
 import BlogItem from './BlogItem';
 
-const BlogList = ({ posts }) => {
+const BlogList = ({ properties }) => {
   return (
     <div className="blog-list">
-      {posts.map(post => (
+      {properties.map(post => (
         <BlogItem key={post.id} post={post} />
       ))}
     </div>

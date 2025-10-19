@@ -8,10 +8,10 @@ const Sidebar = () => {
       <nav>
         <ul style={{ listStyle: 'none', padding: 0 }}>
           <li style={{ marginBottom: '10px' }}>
-            <NavLink to="/admin/dashboard" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Dashboard</NavLink>
+            <NavLink to="/admin/dashboard"  style={{color:'white'}}>Dashboard</NavLink>
           </li>
           <li>
-            <NavLink to="/admin/manage-posts" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Manage Posts</NavLink>
+            <NavLink to="/admin/manage-Properties" style={{color:'white'}}>Manage Properties</NavLink>
           </li>
         </ul>
       </nav>

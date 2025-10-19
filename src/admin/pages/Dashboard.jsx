@@ -5,26 +5,26 @@ const Dashboard = () => {
   const [postCount, setPostCount] = useState(0);
 
   useEffect(() => {
-    const fetchPosts = async () => {
+    const fetchproperties = async () => {
       try {
-        const response = await fetch('http://localhost:5000/posts');
+        const response = await fetch('http://localhost:5000/properties');
         const data = await response.json();
         setPostCount(data.length);
-        console.log('Fetched posts:', data.length);
+        console.log('Fetched :', data.length);
       } catch (error) {
-        console.error('Error fetching posts:', error);
+        console.error('Error fetching Properties:', error);
       }
     };
 
-    fetchPosts();
+    fetchproperties();
   }, []);
 
   return (
     <div>
-      <h2>Dashboard</h2>
+      <h2 style={{color:'white'}}>Dashboard</h2>
       <div style={{ border: '1px solid #ccc', padding: '20px', borderRadius: '5px' }}>
-        <h3>Analytics</h3>
-        <p>Total Posts: {postCount}</p>
+        <h3 style={{color:'white'}}>Analytics</h3>
+        <p style={{color:'white'}}>Total Properties: {postCount}</p>
       </div>
     </div>
   );

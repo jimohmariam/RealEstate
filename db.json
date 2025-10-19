@@ -1,25 +1,91 @@
 {
-  "posts": [
+  "properties": [
     {
-      "title": "A house in ikeja now",
-      "body": "i am here Artificial intelligence is rapidly changing the world as we know it. From self-driving cars to personalized medicine, AI is poised to revolutionize every industry. In this post, we'll explore the latest advancements in AI and discuss the potential implications for society. We'll also delve into the ethical considerations surrounding AI and how we can ensure that it's used for the good of humanity.",
-      "imageUrl": "https://images.unsplash.com/photo-1620712943543-285f7266c8da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-      "author": "Jane Doe",
-      "date": "2025-08-28",
-      "id": "1"
+      "title": "Spacious Two-Flat Duplex",
+      "body": "Well-designed two-flat building located in a serene environment. Each flat comes with a large living room, modern kitchen, and ensuite bedrooms. Suitable for both rental investment and family residence.",
+      "imageUrl": "https://images.ctfassets.net/abyiu1tn7a0f/3vTBvQw6GEDHsymU7JL0HB/db64167a9e8e62d3c3577632a99eb394/fully-detached-apartments-for-sale-vgc.jpg",
+      "videoUrl": "https://cdn.pixabay.com/video/2023/03/10/154140-807166727_tiny.mp4",
+      "price": 120000,
+      "author": "Iyana Ipaja",
+      "date": "2025-10-19",
+      "id": "p1"
+    },
+    {
+      "title": "Luxury 4-Bedroom Smart Home in Miami",
+      "body": "This modern 4-bedroom villa features ocean views, a private pool, and a fully automated smart home system. The property has spacious living areas, marble floors, and an open kitchen with state-of-the-art appliances. Located just 10 minutes from Miami Beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "videoUrl": "https://cdn.pixabay.com/video/2018/02/24/14476-257440741_tiny.mp4",
+      "price": "$1,250,000",
+      "author": "Miami, USA",
+      "date": "2025-10-18",
+      "id": "1760829316676"
+    },
+    {
+      "title": "3-Bedroom Duplex for Sale in Lekki Phase 1",
+      "body": "This modern 3-bedroom duplex offers spacious living areas, en-suite bathrooms, a fitted kitchen, and a private balcony. Located in a secure estate with 24-hour power supply and good road access — ideal for family living or investment.",
+      "imageUrl": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2024/06/04/215303_tiny.mp4",
+      "price": "₦85,000,000",
+      "author": "Lekki Phase 1, Lagos, Nigeria",
+      "date": "2025-10-19",
+      "id": "1760883000257"
+    },
+    {
+      "title": "2-Bedroom Apartment in Gwarinpa",
+      "body": "Newly built 2-bedroom apartment with POP ceiling, fitted kitchen, and ample parking space. Located in a gated community in Gwarinpa, close to major roads and shopping centers.",
+      "imageUrl": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2024/06/05/215424_tiny.mp4",
+      "price": "₦35,000,000",
+      "author": "Gwarinpa, Abuja",
+      "date": "2025-10-19",
+      "id": "1760884000421"
+    },
+    {
+      "title": "Luxury 5-Bedroom Mansion in Banana Island",
+      "body": "This exquisite 5-bedroom mansion comes with a private elevator, swimming pool, cinema room, and rooftop lounge. It’s fully automated with cutting-edge smart home technology and premium interior finishing.",
+      "imageUrl": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2023/08/07/174949-852215372_tiny.mp4",
+      "price": "₦950,000,000",
+      "author": "Banana Island, Lagos, Nigeria",
+      "date": "2025-10-19",
+      "id": "1760884600992"
+    },
+    {
+      "id": "1760885200125",
+      "title": "Affordable Mini Flat in Ibadan",
+      "body": "Clean and affordable mini flat with tiled floors, borehole water supply, and prepaid electricity meter. Located in a peaceful environment close to University of Ibadan.",
+      "imageUrl": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2021/07/12/82149-573042142_tiny.mp4",
+      "author": "Ibadan, Oyo State",
+      "price": "₦5,500,000",
+      "date": "2025-10-19"
+    },
+    {
+      "title": "4-Bedroom Detached Bungalow in Port Harcourt",
+      "body": "Fully fenced 4-bedroom detached bungalow with a spacious compound, modern kitchen, and tiled bathrooms. Located in a secure and quiet neighborhood in Port Harcourt.",
+      "imageUrl": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2024/03/03/202752-918944239_tiny.mp4",
+      "price": "₦48,000,000",
+      "author": "Port Harcourt, Rivers State",
+      "date": "2025-10-19",
+      "id": "1760885800177"
+    },
+    {
+      "title": "Modern Beachfront Villa in Victoria Island",
+      "body": "Experience luxury living in this stunning beachfront villa featuring 6 ensuite bedrooms, a private infinity pool, rooftop terrace, and panoramic ocean views. Perfect for high-end buyers seeking comfort, privacy, and proximity to the city’s attractions.",
+      "imageUrl": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+      "videoUrl": "https://cdn.pixabay.com/video/2023/02/15/150784-799174132_tiny.mp4",
+      "price": "₦1,200,000,000",
+      "author": "Victoria Island, Lagos, Nigeria",
+      "date": "2025-10-19",
+      "id": "1760886400999"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
-      "password": "password123"
+      "passwordHash": "..."
     }
   ]
 }
-
-// localhost:5000/users  - get all
-// localhost:5000/users - post
-// localhost:5000/users/1 - get one
-// localhost:5000/users/1 - put
-// localhost:5000/users/1 - delete

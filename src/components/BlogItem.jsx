@@ -12,7 +12,7 @@ const BlogItem = ({ post }) => {
         <h2>{post.title}</h2>
         <p>{excerpt}</p>
         <div className="author">By: {post.author}</div>
-        <Link to={`/post/${post.id}`} className="btn">Read More</Link>
+        <Link to={`/post/${post.id}`} className="btn" style={{backgroundColor:'black'}}>Read More</Link>
       </div>
     </div>
   );
